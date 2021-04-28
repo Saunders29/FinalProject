@@ -1,0 +1,35 @@
+body{
+    background-color:lightsteelblue;
+    margin: 5%;
+}
+header{
+    font-size: 2em;
+    color: navy;
+    text-decoration: underline;
+    text-align: center;
+}
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 5%;
+}
+ul{
+    list-style-type:square;
+    font-size: 1.2em;
+}
+h3#BaseballTittle {
+    font-size: 1.75em;
+    color:purple;
+    text-decoration: underline;
+}
+img#MLB_Logo{
+    height: 30em;
+    width: 30em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
