@@ -18,7 +18,7 @@ p {
     border:dotted 5px midnightblue;
     padding: .5em;
 }
-ul{
+ul#BaseballLove{
     list-style-type:square;
     font-size: 1.2em;
 }
@@ -98,4 +98,14 @@ div.label{
     width: fit-content;
     text-decoration: underline;
     align-items: center;
+}
+div.paragraph{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    border:dotted 5px midnightblue;
+    padding: .5em;
 }
