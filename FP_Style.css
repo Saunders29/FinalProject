@@ -119,8 +119,13 @@ div.paragraph{
     line-height: 1.4em;
 }
 footer{
-    text-align: end;
-    margin-left: 70%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    border: 2px solid black;
+    background-color:darkkhaki;
+    
     margin-top: 3em;
     font-size: .75em;
 }
