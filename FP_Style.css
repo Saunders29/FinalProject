@@ -94,8 +94,8 @@ div.pictureBar {
 div.pictureBlock{
     font-size: 2em;
     border: dotted black;
-    height: 60%;
-    width:  40%;
+    height:fit-content;
+    width:  fit-content;
     padding: .3em;
     border: 3px solid black;
     background-color:salmon;
@@ -125,7 +125,7 @@ footer{
     margin-right: auto;
     margin-bottom: 2%;
     border: 2px solid black;
-    background-color:darkkhaki;
+    background-color:lemonchiffon;
     
     margin-top: 3em;
     font-size: .75em;
@@ -142,7 +142,6 @@ div.links{
     position: absolute;
     background-color: cornflowerblue ;
     border: 4px solid blueviolet;
-    padding: auto;
     width: fit-content;
     font-size: .8em;
     
@@ -180,13 +179,14 @@ div.LinkBlock#dropdown:hover div.links{
         display: inline-block;
         border: .1em solid blueviolet;
         padding: .25em;
+       
         
         
     }
     p {
     
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 10%;
+        margin-right: 10%;
         margin-top: 2.5%;
         margin-bottom: 2.5%;
         border:dotted 5px midnightblue;
@@ -195,5 +195,21 @@ div.LinkBlock#dropdown:hover div.links{
         align-items: center;
         text-align: center;
         width: fit-content;
+    }
+    div.pictureBar {
+        display: flex;
+        border:5px solid darkslategrey;
+        padding: .1em;
+       display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    div.pictureBlock{
+        font-size: 1em;
+        border: dotted black;
+        height: fit-content;
+        width:  fit-content;
+        padding: .1em;
+      
     }
 }
