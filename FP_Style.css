@@ -198,7 +198,6 @@ div.LinkBlock#dropdown:hover div.links{
         padding: .5em;
         line-height: 1.2em;
         align-items: center;
-        text-align: center;
         width: fit-content;
     }
     div.pictureBar {
@@ -229,7 +228,6 @@ div.LinkBlock#dropdown:hover div.links{
         padding: .25em;
         line-height: 1.2em;
         align-items: center;
-        text-align: center;
         width: fit-content;
     }
     img#MLB_Logo{
