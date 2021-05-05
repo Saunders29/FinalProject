@@ -44,9 +44,7 @@ img#MLB_Logo{
     width: 30em;
     display: block;
     margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    
+    margin-right: auto; 
 }
 div.LinkBar {
     display: flex;
@@ -179,12 +177,8 @@ div.LinkBlock#dropdown:hover div.links{
         display: inline-block;
         border: .1em solid blueviolet;
         padding: .25em;
-       
-        
-        
     }
     p {
-    
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 2.5%;
@@ -211,5 +205,28 @@ div.LinkBlock#dropdown:hover div.links{
         width:  fit-content;
         padding: .1em;
       
+    }
+    header{
+        font-size: 1.5em;
+    }
+    div.paragraph{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        border:dotted 5px midnightblue;
+        padding: .5em;
+        line-height: 1.2em;
+        align-items: center;
+        text-align: center;
+        width: fit-content;
+    }
+    img#MLB_Logo{
+        height: 20em;
+        width: 20em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
     }
 }
