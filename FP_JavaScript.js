@@ -19,7 +19,12 @@ function mouseOver (e){
     if(e.target.getAttribute("id")== "OutfieldPage"){
         document.getElementById("OutfieldPage").style.fontWeight="bolder";
     }
-    
+    if(e.target.getAttribute("id")== "OffensePage"){
+        document.getElementById("OffensePage").style.fontWeight="bolder";
+    }
+    if(e.target.getAttribute("id")== "DefensePage"){
+        document.getElementById("DefensePage").style.fontWeight="bolder";
+    }
 }
 function mouseOut (e){
     if(e.target.getAttribute("id")== "HomePage"){
@@ -39,6 +44,12 @@ function mouseOut (e){
     }
     if(e.target.getAttribute("id")== "OutfieldPage"){
         document.getElementById("OutfieldPage").style.fontWeight="normal";
+    }
+    if(e.target.getAttribute("id")== "OffensePage"){
+        document.getElementById("OffensePage").style.fontWeight="normal";
+    }
+    if(e.target.getAttribute("id")== "DefensePage"){
+        document.getElementById("DefensePage").style.fontWeight="normal";
     }
 
 }
