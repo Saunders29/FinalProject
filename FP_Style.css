@@ -189,6 +189,7 @@ div.LinkBlock#dropdown:hover div.links{
         border: .1em solid blueviolet;
         padding: .25em;
     }
+
     p {
         margin-left: 10%;
         margin-right: 10%;
@@ -238,5 +239,8 @@ div.LinkBlock#dropdown:hover div.links{
         margin-right: auto;
         
     }
+    div.LinkBlock{
+        margin-top: auto;
+        margin-bottom: auto;
   
 }
