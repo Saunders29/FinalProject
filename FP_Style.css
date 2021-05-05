@@ -20,6 +20,16 @@ p {
     padding: .5em;
     line-height: 1.4em;
 }
+div.paragraph{
+    
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    border:dotted 5px midnightblue;
+    padding: .5em;
+    line-height: 1.4em;
+}
 ul#BaseballLove{
     list-style-type:square;
     font-size: 1.2em;
@@ -108,16 +118,7 @@ div.label{
     margin-left: auto;
     margin-right: auto;
 }
-div.paragraph{
-    
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    border:dotted 5px midnightblue;
-    padding: .5em;
-    line-height: 1.4em;
-}
+
 footer{
     text-align: center;
     margin-left: auto;
