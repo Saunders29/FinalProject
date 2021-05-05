@@ -46,6 +46,13 @@ img#MLB_Logo{
     margin-left: auto;
     margin-right: auto; 
 }
+img#BaseballField{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    height: 60%;
+    width: 60%;
+}
 div.LinkBar {
     display: flex;
     border: .25em solid blueviolet;
@@ -286,4 +293,5 @@ div.LinkBlock#dropdown:hover div.links{
         margin-right: auto;
         
     }
+  
 }
